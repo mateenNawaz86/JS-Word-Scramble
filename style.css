@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    line-height: 15vh;
+    background: #2ecc71;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font: 1.8rem;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 #efefef, 0 2px 0 #efefef, 0 3px 0 #efefef, 0 4px 0 #efefef, 0 30px 5px rgb(0, 0, 0, 0.1);
+}
+
+section {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #41eb85;
+}
+
+.gameArea {
+    width: 50%;
+    height: 400px;
+    padding: 20px 0;
+    flex-direction: column;
+    background: #27ae60;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 6px -6px #000;
+    font-family: 'Goldman', cursive;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+input {
+    width: 40%;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    background-color: #dfdfdf;
+    color: #000;
+    margin: 2rem 0;
+    font-size: 1rem;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    font-size: 1rem;
+    border: #2f4542;
+    margin-top: 10px;
+    color: rgb(228, 145, 145);
+    border-radius: 10px;
+}
+
+button.btn {
+    font-weight: 600;
+    padding: 1rem 2rem;
+    background: #fff;
+    text-transform: uppercase;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.65, -0.25, 0.25, 1.95);
+}
+
+button.btn :hover,
+button.btn:focus,
+button.btn :active {
+    letter-spacing: 0.125rem;
+    word-spacing: 0.2rem;
+}
+
+.hidden {
+    display: none;
+}
